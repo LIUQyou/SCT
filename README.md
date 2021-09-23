@@ -153,16 +153,27 @@ Classical approach: Exposure by UV light through mechanically adjusted slits.
 Today: Mask writing either by LASER or e-Beam
 
 
-## Chapter.4: Doping
+## Chapter.5: Doping
 The doping of a semiconductor determines its electrical behavior. The process of doping (the controlled incorporation of dopant atoms) is therefore decisive for the circuit behavior.
 > Doping at crystal growth (bulk doping)
-
 > Neutron Transmutation Doping (NTD) (very specific)
-
 > Doping during Epitaxy (low above high doping level possible)
-
 > Doping by diffusion
-
 > Doping by implantation
-
 For a structured (masked) doping the latter two techniques are used.
+
+#### Diffusion
+The dynamic range of doping is limited by the solubility for the upper value(ca. 10^20 - 10^21 1/cm3 ) and by the purity of the bulk material for the lower value (10^12 – 10^13 1/cm3 )
+
+Doping by Diffusion: Diffusion is the transport of particles along a concentration gradient (in a solid thermally activated).
+
+Two step diffusion: 
+> Predeposition: doping often proceeds by an initial predep step to introduce the required dose of dopant into the substrate.
+> Drive-in: a subsequent drive-in anneal then redistributes the dopant giving the required junction depth.
+
+- a) Out diffusion: This effect causes the junction depth to appear at a slightly larger value. undesired effect occurring at high temperature: dopant atoms diffuse from the material featuring high doping level to the material featuring low doping level; common in high temperature epitaxial deposition where it prevents sharp change in dopant concentration between epi layer and the substrate; temperature of epitaxial deposition must be reduce to control outdiffusion.
+- b) Diffusion of a step like profile
+- c) Diffusion in combination with oxidation: Boron deplets at the Si surface while phosphorus accumulates!
+- d) Oxidation enhanced diffusion(LOCOS: LOCal Oxidation of Silicon): Local oxidation of Si injects point defects into the Si lattice below the growing interface. These point defects cause a locally larger effective diffusion coefficient which enlarges junction depth. Due to the misfit in binding length between Si-Si and Si-O during oxidation the concentration of interstitials and vacancies is significantly changed. This impacts the diffusivity of dopants.
+- e) Concentration dependency of D
+- f) Lateral diffusion
