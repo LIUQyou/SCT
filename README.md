@@ -141,8 +141,13 @@ Today: Mask writing either by LASER or e-Beam
 ## Chapter.4: Doping
 The doping of a semiconductor determines its electrical behavior. The process of doping (the controlled incorporation of dopant atoms) is therefore decisive for the circuit behavior.
 > Doping at crystal growth (bulk doping)
+
 > Neutron Transmutation Doping (NTD) (very specific)
+
 > Doping during Epitaxy (low above high doping level possible)
+
 > Doping by diffusion
+
 > Doping by implantation
+
 For a structured (masked) doping the latter two techniques are used.
