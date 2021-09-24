@@ -175,5 +175,206 @@ Two step diffusion:
 - b) Diffusion of a step like profile
 - c) Diffusion in combination with oxidation: Boron deplets at the Si surface while phosphorus accumulates!
 - d) Oxidation enhanced diffusion(LOCOS: LOCal Oxidation of Silicon): Local oxidation of Si injects point defects into the Si lattice below the growing interface. These point defects cause a locally larger effective diffusion coefficient which enlarges junction depth. Due to the misfit in binding length between Si-Si and Si-O during oxidation the concentration of interstitials and vacancies is significantly changed. This impacts the diffusivity of dopants.
-- e) Concentration dependency of D
-- f) Lateral diffusion
+- e) Concentration dependency of D:
+- f) Lateral diffusion: Diffusion is an isotropic process. Therefore the dopants spread out not only vertically down into the silicon but also horizontally below the mask. As a rule of thumb the lateral extension of a junction is about 80% of the vertical junction depth.
+
+Diffusion Processing: 1.Gas source doping; 2.Liquid source doping; 3.spin on glass doping
+
+#### Ion implantation
+Diffusion is an isotropic process acting also in lateral direction!
+	=> Limits miniaturization (degree of integration)!
+> Alternative:Directional incorporation of the doping by bombardment of the surface with high energetic doping element ions so that they penetrate into the silicon.
+	=> Ion implantation
+
+Ions of the doping atoms inside of a high vacuum system become highly accelerated and penetrate into the silicon surface.
+
+Ion stopping is dominated by two mechanisms:
+	1.Electronic stopping: Electronic excitation creates heat
+	2.Nuclear stopping:    Crystalline si substrate damaged by collision
+Ion stopping is dominated by two mechanisms:
+	1.stopping dominates at high energies
+	2.Nuclear stopping dominates at low energies
+> Projected Range
+> Implantation Masks
+> Channeling
+> Further effects: a) Sputter effect
+				   b) Impact damage
+				   c) Amorphisation Dose
+				   d) Profile tailoring by multiple implantation
+>Damage recovery:Annealing in the diffusion furnace (hours)
+				􀀀 Rapid Thermal Anneal RTA(seconds)
+				􀀀 Ultra Short Anneal -Laser/Flash(milliseconds)
+
+Advantages of ion implantation:
+	a)Photoresist as mask material possible (low temperature)
+	b)High fines of structure (no lateral implantation)
+	c)Possibility of self alignment
+	d)High accuracy of the dose
+	e)Very special profiles possible by multiple implantation
+	f)Doping through a thin film possible
+	
+## Chapter.6: Epitaxy
+Special case of CVD: Mono crystalline Film growth on a mono crystalline substrate.
+	If Substrate material = Film material => Homo epitaxy
+	If Substrate material ≠ Film material => Hetero epitaxy
+
+Requires most highest purity of chemicals surfaces and tools and lowest defect concentration of the substrate.
+
+#### 6.1 CVD Epitaxy
+Prerequisite for uniformity -> Laminar gas flow!
+
+Two parameters are technically more or less easily controllable:
+	a)Gas flow velocity
+	b)Temperature
+	
+**Reaction kinetics**:
+Two regimes of deposition operation:
+	a) Reaction limited
+	b) Transport limited
+Depending on the Mol fraction, the process can go from Monocrystalline via Polycrystalline up to etching!
+
+**Pattern Displacement**: This „horizontal“ growth may cause pattern displacement.
+
+To prevent autodoping it is necessary to deposit the wafer backside with a diffusion barrier.
+
+**Epi Process**:
+> 1. Removal of the native Oxide at ca. 1200 °C: SiO2 (s) + H2 (g) => SiO (g) + H2O (g)
+> 2. Sacrificial etching of Si by HCL
+> 3. Growth using SiHxCl4-x :
+	ex. SiCl4 (g) + 2 H2 (g) < = > Si (s) + 4 HCl (g) at 1250 °C
+	however also side reactions (Etching!) SiCl4 (g) + Si (s) => 2SiCl2 (g)
+	=> Typical Process performed at low SiCl4 concentration!
+	
+**Hetero Epitaxy**:
+	a) By Epi it is possible to generate low doped layers above highly doped layers.
+	b) Epi layers do not contain oxygen (in contrast to CZ wafers)
+	c) Doping is uniform and independent from the wafer position within the CZ ingot
+	d) Compound semiconductors enable „Band Engineering“
+	
+**Si(x)Ge(1-x)**: Ge Epitaxy on Si is generally not possible. However mixing Si with low Ge content can
+create strained lattice material. Maximum Ge fraction is related to the film thickness.
+
+#### 6.2 MBE Molecular Beam Epitaxy
+Physical deposition of the pure film material
+1.Crystalline growth at relatively low temperature possible (400 – 800 ºC)
+	-> no autodoping!
+2.Requires extremely „good“ vacuum 10-10 mBar or lower!
+	-> UHV (Ultra High Vacuum)
+
+> Molecular-beam epitaxy takes place in high vacuum or ultra-high vacuum (10−8–10−12 Torr). The most important aspect of MBE is the deposition rate (typically less than 3,000 nm per hour) that allows the films to grow epitaxially. These deposition rates require proportionally better vacuum to achieve the same impurity levels as other deposition techniques. The absence of carrier gases, as well as the ultra-high vacuum environment, result in the highest achievable purity of the grown films. allowing precise control of the thickness of each layer, down to a single layer of atoms. 
+
+
+## Chapter.7: CVD(Chemical vapor deposition)
+Growth of amorphous or polycrystalline films on arbitrary substrates (temperature must match!)
+	- large material diversity (Si, Oxides, Nitrides, Carbides, Metals, Silicides …)
+	- arbitrary layer thickness with variable properties (composition, strain, …)
+	- low process temperatures possible
+	
+Kinetics of CVD:
+	a) Diffusion of educts to surface
+	b) Adsorption at surface
+	c) Surface events (diffusion, dissociation, reaction, nucleation and growth)
+	d) Desorption of some products
+	e) Release to the exhaust
+
+Common CVD materials in microelectronics:
+- Poly Si (p-Si)
+- SiO2 > undoped (USG)
+	   > PSG Phosphorus doped Silicate Glass
+	   > BSG Boron doped silicate Glass
+	   > BPSG
+- Si3N4 Silicon Nitride
+- SiNxOy Silicon Oxynitride
+- W Tungsten
+- WSi2
+
+#### 7.1 CVD of Polysilicon
+Typically as LPCVD reaction between 600-650 ºC: SiH4 → Si + 2H2
+
+Used as:
+> Gate electrode in MOSFET
+> Electrode in deep trench capacitors (DRAM)
+> Conduction line / Resistor
+> Getter layer (Autodoping)
+> MEMS devices (surface micromachining)
+
+Deposition parameters: 
+> Temperature and pressure
+> Silane concentration
+> Dopant concentration
+
+#### 7.2 CVD of Siliconoxide SiO2
+Used as:
+> Insulation film
+> Passivation layer
+> Doping mask
+> MEMS μ-mechanics as sacrificial layer
+
+“Reflow” generates a „local planarization“ and rounds sharp corners for a better following (conformal) metallization. By thermal treatment the oxide film becomes viscous and surface tension smoothen the surface topology.
+
+#### 7.3 CVD of Silicon Nitride Si3N4
+Used as:
+> Passivation (moisture barrier)
+> Part of LOCOS process
+> „Hard Mask“ in multilayer resist
+> „Stop layer“ at polish
+> MEMS: Mask for KOH Si etch
+
+#### 7.4 Plasma enhanced CVD – PECVD of SiO2 and SiNxHy
+**Advantage: Low Temperature! Deposition on Al or even on polymers possible.**
+**Properties can be controlled via the plasma conditions**
+
+#### 7.5 CVD of Tungsten
+Used as:
+> Polycide/SILICIDE (gate material)
+> Contact metal to the Si substrate
+
+Properties: 
+> excellent step coverage
+> selective deposition possible
+> no metalurgical reaction below 600ºC
+
+Generally 2 ways of CVD: 
+	i) Pyrolysis(高温分解):Thermal decomposition of a supply gas(SiH4 -> Si + 2H2)
+	ii) Reaction: Thermally induced heterogeneous reaction of supply gases( SiH4 + O2 -> SiO2 + 2 H2)
+	
+How to avoid these dependencies on many parameters: Temperature, local precursor impingement rate, sticking coefficient?
+> Utilization of the self limitation lfivnnonf then chemisorption
+
+Atomic Layer Deposition:
+> ALD is an ultrathin film deposition technique that is controlled by gas phase and sequential self-limiting chemical reactions of the precursors at the material surface. Most ALD processes typically require two precursors, which are supplied in sequence one at a time to contribute to surface coating. ALD 是一种超薄膜沉积技术，由气相和材料表面前驱体的顺序自限化学反应控制。 大多数ALD工艺通常需要两种前体，它们一次一个地依次供应以促进表面涂层。In ALD, the growth progresses layer by layer by alternatively pulsing the source gases. This enables ultra fine thickness control.**self limitation!:1.half-reaction A;2.purge or evacuation;3.half-reaction B;4.purge or evacuation**
+
+
+## Chapter.8:Plasma based Depo & Etch
+#### 8.1 Plasma Technology
+**Partially ionized gas**
+Plasma excited by electrical field: 
+> Electrons "absorb" the energy from electrical field, but cannot release their (kinetics) energy by collision with Neutrals or Ions.
+**Plasma generation**:
+> Vacuum resp. low pressure is a prerequisite for plasma generation!
+	
+#### 8.2 Sputtering
+sputtering is a phenomenon in which microscopic particles of a solid material are ejected from its surface, after the material is itself bombarded by energetic particles of a plasma or gas.[1] It occurs naturally in outer space, and can be an unwelcome source of wear in precision components.
+
+#### 8.3 Etching
+- chemical etching:
+	a)purely chemical reaction
+	b)high selectivity
+	c)Isotropic etch profile
+	d)dry strip/wet etching
+- physical etching:
+	a)bombarded with iner Ions like arogan
+	b)physically dislodging material from surface
+	c)Anisotropic etch profile
+	d)low selectivity
+	a)arogan sputtering etching
+- reaction ion etching:
+	a)combination of chemical and physical etching
+	b)plasma process, ion bombardment, plus free radicals
+	c)high and contrallable etch rates
+	d)Anisotropic and controllable etch profile
+	
+> Reactive-ion etching (RIE) is an etching technology used in microfabrication. RIE is a type of dry etching which has different characteristics than wet etching. RIE uses chemically reactive plasma to remove material deposited on wafers. The plasma is generated under low pressure (vacuum) by an electromagnetic field. High-energy ions from the plasma attack the wafer surface and react with it. Application of sidewall passivation to enhance the anisot ropy respectively the aspect ratio.
+
+>Balance between physical & chemical etch in one system: In this case controlled only by the pressure!
+
