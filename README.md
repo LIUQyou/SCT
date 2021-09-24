@@ -155,11 +155,11 @@ Today: Mask writing either by LASER or e-Beam
 
 ## Chapter.5: Doping
 The doping of a semiconductor determines its electrical behavior. The process of doping (the controlled incorporation of dopant atoms) is therefore decisive for the circuit behavior.
-> Doping at crystal growth (bulk doping)
-> Neutron Transmutation Doping (NTD) (very specific)
-> Doping during Epitaxy (low above high doping level possible)
-> Doping by diffusion
-> Doping by implantation
+> Doping at crystal growth (bulk doping)  
+> Neutron Transmutation Doping (NTD) (very specific)  
+> Doping during Epitaxy (low above high doping level possible)  
+> Doping by diffusion  
+> Doping by implantation  
 For a structured (masked) doping the latter two techniques are used.
 
 #### Diffusion
@@ -168,8 +168,8 @@ The dynamic range of doping is limited by the solubility for the upper value(ca.
 Doping by Diffusion: Diffusion is the transport of particles along a concentration gradient (in a solid thermally activated).
 
 Two step diffusion: 
-> Predeposition: doping often proceeds by an initial predep step to introduce the required dose of dopant into the substrate.
-> Drive-in: a subsequent drive-in anneal then redistributes the dopant giving the required junction depth.
+> Predeposition: doping often proceeds by an initial predep step to introduce the required dose of dopant into the substrate.  
+> Drive-in: a subsequent drive-in anneal then redistributes the dopant giving the required junction depth.  
 
 - a) Out diffusion: This effect causes the junction depth to appear at a slightly larger value. undesired effect occurring at high temperature: dopant atoms diffuse from the material featuring high doping level to the material featuring low doping level; common in high temperature epitaxial deposition where it prevents sharp change in dopant concentration between epi layer and the substrate; temperature of epitaxial deposition must be reduce to control outdiffusion.
 - b) Diffusion of a step like profile
@@ -194,13 +194,14 @@ Ion stopping is dominated by two mechanisms:
 Ion stopping is dominated by two mechanisms:
 	1.stopping dominates at high energies
 	2.Nuclear stopping dominates at low energies
-> Projected Range
-> Implantation Masks
-> Channeling
-> Further effects: a) Sputter effect
-				   b) Impact damage
-				   c) Amorphisation Dose
-				   d) Profile tailoring by multiple implantation
+> Projected Range  
+> Implantation Masks  
+> Channeling  
+> Further effects: 
+	a) Sputter effect
+	b) Impact damage
+	c) Amorphisation Dose
+	d) Profile tailoring by multiple implantation  
 >Damage recovery:Annealing in the diffusion furnace (hours)
 				􀀀 Rapid Thermal Anneal RTA(seconds)
 				􀀀 Ultra Short Anneal -Laser/Flash(milliseconds)
@@ -238,18 +239,18 @@ Depending on the Mol fraction, the process can go from Monocrystalline via Polyc
 To prevent autodoping it is necessary to deposit the wafer backside with a diffusion barrier.
 
 **Epi Process**:
-> 1. Removal of the native Oxide at ca. 1200 °C: SiO2 (s) + H2 (g) => SiO (g) + H2O (g)
-> 2. Sacrificial etching of Si by HCL
-> 3. Growth using SiHxCl4-x :
-	ex. SiCl4 (g) + 2 H2 (g) < = > Si (s) + 4 HCl (g) at 1250 °C
-	however also side reactions (Etching!) SiCl4 (g) + Si (s) => 2SiCl2 (g)
-	=> Typical Process performed at low SiCl4 concentration!
+> 1. Removal of the native Oxide at ca. 1200 °C: SiO2 (s) + H2 (g) => SiO (g) + H2O (g)  
+> 2. Sacrificial etching of Si by HCL  
+> 3. Growth using SiHxCl4-x :  
+	ex. SiCl4 (g) + 2 H2 (g) < = > Si (s) + 4 HCl (g) at 1250 °C  
+	however also side reactions (Etching!) SiCl4 (g) + Si (s) => 2SiCl2 (g)  
+	=> Typical Process performed at low SiCl4 concentration!  
 	
 **Hetero Epitaxy**:
-	a) By Epi it is possible to generate low doped layers above highly doped layers.
-	b) Epi layers do not contain oxygen (in contrast to CZ wafers)
-	c) Doping is uniform and independent from the wafer position within the CZ ingot
-	d) Compound semiconductors enable „Band Engineering“
+	a) By Epi it is possible to generate low doped layers above highly doped layers.  
+	b) Epi layers do not contain oxygen (in contrast to CZ wafers)  
+	c) Doping is uniform and independent from the wafer position within the CZ ingot  
+	d) Compound semiconductors enable „Band Engineering“  
 	
 **Si(x)Ge(1-x)**: Ge Epitaxy on Si is generally not possible. However mixing Si with low Ge content can
 create strained lattice material. Maximum Ge fraction is related to the film thickness.
@@ -257,9 +258,9 @@ create strained lattice material. Maximum Ge fraction is related to the film thi
 #### 6.2 MBE Molecular Beam Epitaxy
 Physical deposition of the pure film material
 1.Crystalline growth at relatively low temperature possible (400 – 800 ºC)
-	-> no autodoping!
+	-> no autodoping!  
 2.Requires extremely „good“ vacuum 10-10 mBar or lower!
-	-> UHV (Ultra High Vacuum)
+	-> UHV (Ultra High Vacuum)  
 
 > Molecular-beam epitaxy takes place in high vacuum or ultra-high vacuum (10−8–10−12 Torr). The most important aspect of MBE is the deposition rate (typically less than 3,000 nm per hour) that allows the films to grow epitaxially. These deposition rates require proportionally better vacuum to achieve the same impurity levels as other deposition techniques. The absence of carrier gases, as well as the ultra-high vacuum environment, result in the highest achievable purity of the grown films. allowing precise control of the thickness of each layer, down to a single layer of atoms. 
 
@@ -279,10 +280,10 @@ Kinetics of CVD:
 
 Common CVD materials in microelectronics:
 - Poly Si (p-Si)
-- SiO2 > undoped (USG)
-	   > PSG Phosphorus doped Silicate Glass
-	   > BSG Boron doped silicate Glass
-	   > BPSG
+- SiO2 > undoped (USG)  
+	   > PSG Phosphorus doped Silicate Glass  
+	   > BSG Boron doped silicate Glass  
+	   > BPSG  
 - Si3N4 Silicon Nitride
 - SiNxOy Silicon Oxynitride
 - W Tungsten
@@ -292,33 +293,33 @@ Common CVD materials in microelectronics:
 Typically as LPCVD reaction between 600-650 ºC: SiH4 → Si + 2H2
 
 Used as:
-> Gate electrode in MOSFET
-> Electrode in deep trench capacitors (DRAM)
-> Conduction line / Resistor
-> Getter layer (Autodoping)
-> MEMS devices (surface micromachining)
+> Gate electrode in MOSFET  
+> Electrode in deep trench capacitors (DRAM)  
+> Conduction line / Resistor  
+> Getter layer (Autodoping)  
+> MEMS devices (surface micromachining)  
 
 Deposition parameters: 
-> Temperature and pressure
-> Silane concentration
-> Dopant concentration
+> Temperature and pressure  
+> Silane concentration  
+> Dopant concentration  
 
 #### 7.2 CVD of Siliconoxide SiO2
 Used as:
-> Insulation film
-> Passivation layer
-> Doping mask
-> MEMS μ-mechanics as sacrificial layer
-
+> Insulation film  
+> Passivation layer  
+> Doping mask  
+> MEMS μ-mechanics as sacrificial layer  
+ 
 “Reflow” generates a „local planarization“ and rounds sharp corners for a better following (conformal) metallization. By thermal treatment the oxide film becomes viscous and surface tension smoothen the surface topology.
 
 #### 7.3 CVD of Silicon Nitride Si3N4
 Used as:
-> Passivation (moisture barrier)
-> Part of LOCOS process
-> „Hard Mask“ in multilayer resist
-> „Stop layer“ at polish
-> MEMS: Mask for KOH Si etch
+> Passivation (moisture barrier)  
+> Part of LOCOS process  
+> „Hard Mask“ in multilayer resist  
+> „Stop layer“ at polish  
+> MEMS: Mask for KOH Si etch  
 
 #### 7.4 Plasma enhanced CVD – PECVD of SiO2 and SiNxHy
 **Advantage: Low Temperature! Deposition on Al or even on polymers possible.**
@@ -326,20 +327,20 @@ Used as:
 
 #### 7.5 CVD of Tungsten
 Used as:
-> Polycide/SILICIDE (gate material)
-> Contact metal to the Si substrate
+> Polycide/SILICIDE (gate material)  
+> Contact metal to the Si substrate  
 
 Properties: 
-> excellent step coverage
-> selective deposition possible
-> no metalurgical reaction below 600ºC
+> excellent step coverage  
+> selective deposition possible  
+> no metalurgical reaction below 600ºC  
 
 Generally 2 ways of CVD: 
 	i) Pyrolysis(高温分解):Thermal decomposition of a supply gas(SiH4 -> Si + 2H2)
 	ii) Reaction: Thermally induced heterogeneous reaction of supply gases( SiH4 + O2 -> SiO2 + 2 H2)
 	
 How to avoid these dependencies on many parameters: Temperature, local precursor impingement rate, sticking coefficient?
-> Utilization of the self limitation lfivnnonf then chemisorption
+> Utilization of the self limitation lfivnnonf then chemisorption  
 
 Atomic Layer Deposition:
 > ALD is an ultrathin film deposition technique that is controlled by gas phase and sequential self-limiting chemical reactions of the precursors at the material surface. Most ALD processes typically require two precursors, which are supplied in sequence one at a time to contribute to surface coating. ALD 是一种超薄膜沉积技术，由气相和材料表面前驱体的顺序自限化学反应控制。 大多数ALD工艺通常需要两种前体，它们一次一个地依次供应以促进表面涂层。In ALD, the growth progresses layer by layer by alternatively pulsing the source gases. This enables ultra fine thickness control.**self limitation!:1.half-reaction A;2.purge or evacuation;3.half-reaction B;4.purge or evacuation**
@@ -349,9 +350,9 @@ Atomic Layer Deposition:
 #### 8.1 Plasma Technology
 **Partially ionized gas**
 Plasma excited by electrical field: 
-> Electrons "absorb" the energy from electrical field, but cannot release their (kinetics) energy by collision with Neutrals or Ions.
+> Electrons "absorb" the energy from electrical field, but cannot release their (kinetics) energy by collision with Neutrals or Ions.  
 **Plasma generation**:
-> Vacuum resp. low pressure is a prerequisite for plasma generation!
+> Vacuum resp. low pressure is a prerequisite for plasma generation!  
 	
 #### 8.2 Sputtering
 sputtering is a phenomenon in which microscopic particles of a solid material are ejected from its surface, after the material is itself bombarded by energetic particles of a plasma or gas.[1] It occurs naturally in outer space, and can be an unwelcome source of wear in precision components.
