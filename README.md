@@ -358,18 +358,18 @@ Plasma excited by electrical field:
 sputtering is a phenomenon in which microscopic particles of a solid material are ejected from its surface, after the material is itself bombarded by energetic particles of a plasma or gas.[1] It occurs naturally in outer space, and can be an unwelcome source of wear in precision components.
 
 #### 8.3 Etching
-- chemical etching:
+**chemical etching:**
 	a) purely chemical reaction
 	b) high selectivity
 	c) Isotropic etch profile
 	d) dry strip/wet etching
-- physical etching:
+**physical etching:**
 	a) bombarded with iner Ions like arogan
 	b) physically dislodging material from surface
 	c) Anisotropic etch profile
 	d) low selectivity
 	a) arogan sputtering etching
-- reaction ion etching:
+**reaction ion etching:**
 	a) combination of chemical and physical etching
 	b) plasma process, ion bombardment, plus free radicals
 	c) high and contrallable etch rates
