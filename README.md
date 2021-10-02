@@ -359,21 +359,21 @@ sputtering is a phenomenon in which microscopic particles of a solid material ar
 
 #### 8.3 Etching
 **chemical etching:**
-	a) purely chemical reaction
-	b) high selectivity
-	c) Isotropic etch profile
-	d) dry strip/wet etching
+	a) purely chemical reaction  
+	b) high selectivity  
+	c) Isotropic etch profile  
+	d) dry strip/wet etching  
 **physical etching:**
-	a) bombarded with iner Ions like arogan
-	b) physically dislodging material from surface
-	c) Anisotropic etch profile
-	d) low selectivity
-	a) arogan sputtering etching
+	a) bombarded with iner Ions like arogan  
+	b) physically dislodging material from surface  
+	c) Anisotropic etch profile  
+	d) low selectivity  
+	a) arogan sputtering etching  
 **reaction ion etching:**
-	a) combination of chemical and physical etching
-	b) plasma process, ion bombardment, plus free radicals
-	c) high and contrallable etch rates
-	d) Anisotropic and controllable etch profile
+	a) combination of chemical and physical etching  
+	b) plasma process, ion bombardment, plus free radicals  
+	c) high and contrallable etch rates  
+	d) Anisotropic and controllable etch profile  
 	
 > Reactive-ion etching (RIE) is an etching technology used in microfabrication. RIE is a type of dry etching which has different characteristics than wet etching. RIE uses chemically reactive plasma to remove material deposited on wafers. The plasma is generated under low pressure (vacuum) by an electromagnetic field. High-energy ions from the plasma attack the wafer surface and react with it. Application of sidewall passivation to enhance the anisot ropy respectively the aspect ratio.
 
