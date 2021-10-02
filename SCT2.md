@@ -26,7 +26,7 @@ The removal rate is proportional to (local!) DownForce (Pressure) and Velocity (
 ## Chapter.3: SC - Basics
 > Electrical conductivity and bandgap  
 **Fermi Distribution function:**  
-> Fermi-Level Energy at which occupation probability = 0,5
+> Fermi-Level Energy at which occupation probability = 0,5  
 	For intrinsic Si Fermi-Level must be in the middle of the bandgap!  
 	For n-doped Si Fermi-Level must be near the conductance band of the bandgap!  
 	For p-doped Si Fermi-Level must be near the valence band of the bandgap!  
@@ -44,11 +44,11 @@ The removal rate is proportional to (local!) DownForce (Pressure) and Velocity (
 > 4.Develop  
 > 5.Oxide Etching  
 > 6.Resist strip  
-> 7.Diffusion or Implantation
-> 8.Dry Oxidation
-> 9.Litho and Etch Oxide
-> 10.Sputter Deposition
-> 11.Litho and Etch Metal
+> 7.Diffusion or Implantation  
+> 8.Dry Oxidation  
+> 9.Litho and Etch Oxide  
+> 10.Sputter Deposition  
+> 11.Litho and Etch Metal  
 
 Impact of material and layout  
 **High K - EOT**  
