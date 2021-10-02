@@ -93,6 +93,14 @@ In contrast to the MOS-cap, it is for the MOS-FET not necessary to generate the 
 	4.Contact Mask; Ox Etch; Al Depo
 	5.Metal Mask; Metal Etch
 
+**N-MOS Enhancement /Depletion Process f low:**
+- Mask 1: S/D opening, P-Diffusion  -Post oxidation – drive in  
+- Mask 2: VT adjustment of the Enhancement T ransistor via B- Implant
+- Mask 3: Etching of Gate- und S/D contact-Gateoxidation
+- Mask 4: VT adjustment of the Depletion Transistor via As- Implant through the Gateox
+- Mask 5: Opening of S/D cont acts Deposition of conduc tor laye r (Al)
+- Mask 6: Metal etch (both Gate and Source/Drain)
+
 **From an inverter to an SRAM:**
 	
 ## Chapter.9: E/D Logic
@@ -104,15 +112,15 @@ In contrast to the MOS-cap, it is for the MOS-FET not necessary to generate the 
 	
 This FET is called parasitic transistor. It might unintentionally connect any n+ region where Gate lines run over the fieldox. To avoid this, the fieldox thickness has to be as large as possible.
 
-**E/E inverter:**
-**E/D inverter:**
+**E/E inverter:**  
+**E/D inverter:**  
 Much better transfer behavior of the E/D inverter!
 	1. Voutmax=VDD
 	2. Slope in the transfer curve high
-- Different inverters:
+- Different inverters:  
 	E/E inverter (4 Masks) and E/D inverter (5 or 6 Masks)
 
-**Self Aligned Process:**
+**Al(Metal)-Gate -> Si-Gate and Self Aligned Process:**
 The FET has two important Capacities:The Gate capacity determined by  
 	the charge to form the inversion channel and the  
 	parasitic capacitors resulting from the overlap of the gate metal with the source/drain region.
