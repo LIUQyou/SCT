@@ -221,6 +221,12 @@ Special case of CVD: Mono crystalline Film growth on a mono crystalline substrat
 
 Requires most highest purity of chemicals surfaces and tools and lowest defect concentration of the substrate.
 
+Several sequential fundamental steps are required to grow the film: 
+- Diffusion of reactants to the surface through a boudary layer,
+- diffusion along the surface, 
+- surface reactions, and 
+- desorption of by products
+
 #### 6.1 CVD Epitaxy
 Prerequisite for uniformity -> Laminar gas flow!
 
@@ -230,8 +236,8 @@ Two parameters are technically more or less easily controllable:
 	
 **Reaction kinetics**:
 Two regimes of deposition operation:
-	a) Reaction limited
-	b) Transport limited
+	a) Reaction limited: low temperature
+	b) Transport limited: high temperature
 Depending on the Mol fraction, the process can go from Monocrystalline via Polycrystalline up to etching!
 
 **Pattern Displacement**: This „horizontal“ growth may cause pattern displacement.
@@ -239,34 +245,33 @@ Depending on the Mol fraction, the process can go from Monocrystalline via Polyc
 To prevent autodoping it is necessary to deposit the wafer backside with a diffusion barrier.
 
 **Epi Process**:
-> 1. Removal of the native Oxide at ca. 1200 °C: SiO2 (s) + H2 (g) => SiO (g) + H2O (g)  
-> 2. Sacrificial etching of Si by HCL  
-> 3. Growth using SiHxCl4-x :  
+> 1. Removal of the **native Oxide** at ca. 1200 °C: SiO2 (s) + H2 (g) => SiO (g) + H2O (g)  
+> 2. **Sacrificial etching** of Si by HCL  
+> 3. Growth using **SiHxCl4-x** :  
 	ex. SiCl4 (g) + 2 H2 (g) < = > Si (s) + 4 HCl (g) at 1250 °C  
 	however also side reactions (Etching!) SiCl4 (g) + Si (s) => 2SiCl2 (g)  
 	=> Typical Process performed at low SiCl4 concentration!  
 	
 **Hetero Epitaxy**:
-	a) By Epi it is possible to generate low doped layers above highly doped layers.  
-	b) Epi layers do not contain oxygen (in contrast to CZ wafers)  
-	c) Doping is uniform and independent from the wafer position within the CZ ingot  
-	d) Compound semiconductors enable „Band Engineering“  
+	a) By Epi it is possible to generate **low doped layers above highly doped layers**.  
+	b) Epi layers do **not contain oxygen** (in contrast to CZ wafers)  
+	c) Doping is **uniform and independent from the wafer position** within the CZ ingot  
+	d) Compound semiconductors enable **„Band Engineering“**  
 	
-**Si(x)Ge(1-x)**: Ge Epitaxy on Si is generally not possible. However mixing Si with low Ge content can
-create strained lattice material. Maximum Ge fraction is related to the film thickness.
+**Si(x)Ge(1-x)**: Ge Epitaxy on Si is generally not possible. However mixing Si with low Ge content can create strained lattice material. Maximum Ge fraction is related to the film thickness.
 
 #### 6.2 MBE Molecular Beam Epitaxy
 Physical deposition of the pure film material
-1.Crystalline growth at relatively low temperature possible (400 – 800 ºC)
+1.Crystalline growth at **relatively low temperature** possible (400 – 800 ºC)
 	-> no autodoping!  
-2.Requires extremely „good“ vacuum 10-10 mBar or lower!
+2.Requires **extremely „good“ vacuum** 10-10 mBar or lower!
 	-> UHV (Ultra High Vacuum)  
 
-> Molecular-beam epitaxy takes place in high vacuum or ultra-high vacuum (10−8–10−12 Torr). The most important aspect of MBE is the deposition rate (typically less than 3,000 nm per hour) that allows the films to grow epitaxially. These deposition rates require proportionally better vacuum to achieve the same impurity levels as other deposition techniques. The absence of carrier gases, as well as the ultra-high vacuum environment, result in the highest achievable purity of the grown films. allowing precise control of the thickness of each layer, down to a single layer of atoms. 
+> Molecular-beam epitaxy takes place in high vacuum or ultra-high vacuum (10−8–10−12 Torr). The most important aspect of MBE is the deposition rate (typically less than 3,000 nm per hour) that allows the films to grow epitaxially. These deposition rates require proportionally better vacuum to achieve the same impurity levels as other deposition techniques. The absence of carrier gases, as well as the ultra-high vacuum environment, result in the **highest achievable purity** of the grown films. allowing **precise control of the thickness of each layer**, down to a single layer of atoms. 
 
 
 ## Chapter.7: CVD(Chemical vapor deposition)
-Growth of amorphous or polycrystalline films on arbitrary substrates (temperature must match!)
+Growth of **amorphous** or **polycrystalline** films on arbitrary substrates (temperature must match!)
 	- large material diversity (Si, Oxides, Nitrides, Carbides, Metals, Silicides …)
 	- arbitrary layer thickness with variable properties (composition, strain, …)
 	- low process temperatures possible
@@ -311,7 +316,14 @@ Used as:
 > Doping mask  
 > MEMS μ-mechanics as sacrificial layer  
  
-“Reflow” generates a „local planarization“ and rounds sharp corners for a better following (conformal) metallization. By thermal treatment the oxide film becomes viscous and surface tension smoothen the surface topology.
+- Common reactions ordered by temperature:
+> Silane Oxide: has a low depo temperature and enables deposition above Aluminum.  
+> TEOS Oxide: has an excellent step coverage.  
+> HTO or high temperature oxide: properties close to thermally grown oxide.  
+
+**“Reflow”** generates a „local planarization“ and rounds sharp corners for a better following (conformal) metallization. By thermal treatment the oxide film becomes **viscous** and **surface tension smoothen** the surface topology.
+
+Step Coverage depends on: **mean free path**; **surface mobility** and **sticking coefficient**
 
 #### 7.3 CVD of Silicon Nitride Si3N4
 Used as:
@@ -326,24 +338,24 @@ Used as:
 **Properties can be controlled via the plasma conditions**
 
 #### 7.5 CVD of Tungsten
-Used as:
+Used as:  
 > Polycide/SILICIDE (gate material)  
 > Contact metal to the Si substrate  
 
-Properties: 
+Properties:  
 > excellent step coverage  
 > selective deposition possible  
 > no metalurgical reaction below 600ºC  
 
-Generally 2 ways of CVD: 
-	i) Pyrolysis(高温分解):Thermal decomposition of a supply gas(SiH4 -> Si + 2H2)
-	ii) Reaction: Thermally induced heterogeneous reaction of supply gases( SiH4 + O2 -> SiO2 + 2 H2)
+Generally 2 ways of CVD:  
+	i) **Pyrolysis(高温分解)**:Thermal decomposition of a supply gas(SiH4 -> Si + 2H2)  
+	ii)**Reaction**: Thermally induced heterogeneous reaction of supply gases( SiH4 + O2 -> SiO2 + 2 H2)  
 	
-How to avoid these dependencies on many parameters: Temperature, local precursor impingement rate, sticking coefficient?
+How to avoid these dependencies on many parameters: Temperature, local precursor impingement rate, sticking coefficient?  
 > Utilization of the self limitation lfivnnonf then chemisorption  
 
-Atomic Layer Deposition:
-> ALD is an ultrathin film deposition technique that is controlled by gas phase and sequential self-limiting chemical reactions of the precursors at the material surface. Most ALD processes typically require two precursors, which are supplied in sequence one at a time to contribute to surface coating. ALD 是一种超薄膜沉积技术，由气相和材料表面前驱体的顺序自限化学反应控制。 大多数ALD工艺通常需要两种前体，它们一次一个地依次供应以促进表面涂层。In ALD, the growth progresses layer by layer by alternatively pulsing the source gases. This enables ultra fine thickness control.**self limitation!:1.half-reaction A;2.purge or evacuation;3.half-reaction B;4.purge or evacuation**
+**Atomic Layer Deposition:**  
+> ALD is an ultrathin film deposition technique that is controlled by **gas phase** and **sequential self-limiting chemical reactions of the precursors** at the material surface. Most ALD processes typically require two precursors, which are supplied in sequence one at a time to contribute to surface coating. ALD 是一种超薄膜沉积技术，由气相和材料表面前驱体的顺序自限化学反应控制。 大多数ALD工艺通常需要两种前体，它们一次一个地依次供应以促进表面涂层。In ALD, the growth progresses layer by layer by alternatively pulsing the source gases. This enables ultra fine thickness control.**self limitation!:1.half-reaction A;2.purge or evacuation;3.half-reaction B;4.purge or evacuation**
 
 
 ## Chapter.8:Plasma based Depo & Etch
